@@ -22,3 +22,11 @@ query getUserById{
     }
   }
 }
+
+--
+query getQuoteByUser{
+  iquote(by:"12222"){
+    name
+    by
+  }
+}
